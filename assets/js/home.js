@@ -248,18 +248,34 @@ siteTime();
 // console.log printing ends
 
 
-document.getElementById("cat").onclick = function() {
+document.getElementById("wechat").onclick = function() {
     Swal.fire({
-        title: 'Custom width, padding, color, background.',
-        width: 600,
-        padding: '3em',
-        color: '#716add',
-        background: '#fff url(/images/trees.png)',
+        title: '<i class="fab fa-weixin fa-1x"></i> <strong>WeChat / 微信</strong>',
+        icon: 'warning',
+        html: 'If you want to add my <strong>WeChat</strong>, please add <strong>where you from</strong> in friend request! <br />' +
+            '如果你想加我的微信,請在好友申請中告訴我你<strong>從哪裏來!</strong> <br />'+
+            '<code>https://www.toshiki.top/</code> <br />' +
+            '<strong>Be polite! (❁´◡`❁)</strong> <strong>記住要禮貌哦!</strong>',
+        showCloseButton: true,
+        footer: '<i class="fa-solid fa-lightbulb-dollar"></i> <a href="https://afdian.net/@andatoshiki">Sponsor me at AiFaDian!</a>',
+        showCancelButton: true,
+        focusConfirm: false,
+        cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
+        background: '#fff',
         backdrop: `
           rgba(0,0,123,0.4)
           url("https://cdn.toshiki.top/img/nyan-cat.gif")
           left top
           no-repeat
-        `
-      })
+        `,
+        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Add!'
+    }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            'WeChat ID',
+            '<code>SIKY_041025</code>',
+            'success'
+          )
+        }
+    })
 };
