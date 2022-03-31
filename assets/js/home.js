@@ -52,6 +52,7 @@ $('.btn-mobile-menu__icon').click(function () {
 });
 // main js features ends
 
+/*
 // alert html renderer
 function toUnicodeVariant(str, variant, flags) {
     const offsets = {
@@ -94,6 +95,7 @@ function toUnicodeVariant(str, variant, flags) {
     }
 
 // alert rendering ends
+*/
 
 // special characters (absolute values)
 var special = {
