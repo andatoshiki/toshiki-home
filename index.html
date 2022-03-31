@@ -1,0 +1,230 @@
+<!--
+    
+   ████████╗ ██████╗ ███████╗██╗  ██╗██╗██╗  ██╗██╗
+   ╚══██╔══╝██╔═══██╗██╔════╝██║  ██║██║██║ ██╔╝██║
+      ██║   ██║   ██║███████╗███████║██║█████╔╝ ██║
+      ██║   ██║   ██║╚════██║██╔══██║██║██╔═██╗ ██║
+      ██║   ╚██████╔╝███████║██║  ██║██║██║  ██╗██║
+      ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝
+                                                                                                                                            
+    en: Source code is fully available on GitHub from here: https://github.com/andatoshiki/toshiki-home/ , why still reading source code? I even blocked dev tools.
+    zh: 源代码在 GitHub 上完全开源：https://github.com/andatoshiki/toshiki-home/ ，为什么还要读源代码？ 我什至关了开发工具。
+    zh-tw: 源代碼在 GitHub 上完全開源：https://github.com/andatoshiki/toshiki-home/ ，為什麼還要讀源代碼？我什至關了開發工具
+    ja: ソースコードはGitHubで完全にオープンソースです：https：//github.com/andatoshiki/toshiki-home/、なぜソースコードを読むのですか？ 開発ツールもオフにしました。
+    ko: 소스 코드는 GitHub: https://github.com/andatoshiki/toshiki-home/에서 완전히 오픈 소스입니다. 소스 코드를 읽는 이유는 무엇입니까? 개발 도구도 껐습니다.
+    es: El código fuente es completamente abierto en GitHub: https://github.com/andatoshiki/toshiki-home/, ¿por qué leer el código fuente? Incluso apagué las herramientas de desarrollo.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- meta and SEO relates -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="俊樹's Homepage">
+    <meta name="keywords" content="俊樹,Homepage,主页,引导页,Index,Home">
+    <meta name="author" content="俊樹">
+    <!-- site title -->
+    <title>俊樹's Homepage</title>
+
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+    </script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+    </span>
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <div class="ih-item circle effect right_to_left">            
+                        <a href="#" title="" class="blog-button">
+                            <div class="img"><img src="assets/img/avatar.png" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="info iUp">
+                                <div class="info-back">
+                                    <h2> 
+                                        
+                                            Persist
+                                        
+                                    </h2>
+                                    <p>
+                                        
+                                            2022 · 堅持
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- aplayer playlist -->
+                    <meting-js server="netease" type="playlist" fixed="true" id="60198"></meting-js>
+
+                    <!-- name -->
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <a href="#" title="Toshiki Home">Toshiki | <span class="jp">俊樹</span></a>
+                    </h1>
+
+                    <!-- motto -->
+                    <p class="panel-cover__subtitle panel-subtitle iUp">Let it be</p>
+
+                    <!--devider-->
+                    <hr class="panel-cover__divider iUp" />
+
+                    <!-- quotes/equations -->
+                    <p class="panel-cover__description iUp">
+                        $$\oint \vec{E} \cdot d \vec{A}=\frac{Q}{\varepsilon_{0}}$$
+                    </p>
+                        <br/>
+                    <!-- quote's author -->
+                    <p class="panel-cover_description iUp">
+                        <strong>-「Gauss's Law」</strong>
+                    </p>
+                    <div class="navigation-wrapper iUp">
+                        <div>
+                            <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="/" class="blog-button">Home<br><span class="jp">主頁</span></a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://blog.toshiki.top/" class="blog-button" target="_blank">Blog<br><span class="jp">博客</span></a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://blog.toshiki.top/about/" class="blog-button" target="_blank">About<br><span class="jp">關於</span></a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://lab.toshiki.top/" class="blog-button" target="_blank">More<br><span class="jp">更多</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <!-- starts with an ul -->
+                                <ul class="navigation">
+                                    <!-- github -->
+                                    <li class="navigation__item">
+                                        <a href="https://github.com/andatoshiki/" title="github" target="_blank">
+                                            <i class="fab fa-github fa-lg"></i>
+                                            <span class="label">github</span>
+                                        </a>
+                                    </li>
+
+                                    <!-- gitlab -->
+                                    <li class="navigation__item">
+                                        <a href="https://gitlab.com/anda-toshiki/" title="gitlab" target="_blank">
+                                            <i class="fab fa-gitlab fa-lg"></i>
+                                            <span class="label">gitlab</span>
+                                        </a>
+                                    </li>
+
+                                    <!-- stack overflow -->
+                                    <li class="navigation__item">
+                                        <a href="https://stackoverflow.com/users/18556968/anda-toshiki" title="stackoverflow" target="_blank">
+                                            <i class="fab fa-stack-overflow fa-lg"></i>
+                                            <span class="label">stack overflow</span>
+                                        </a>
+                                    </li>
+
+                                    <!-- keybase -->
+                                    <li class="navigation__item">
+                                        <a href="https://keybase.io/toshiki/" title="keybase" target="_blank">
+                                            <i class="fab fa-keybase fa-lg"></i>
+                                            <span class="label">keybase</span>
+                                        </a>
+                                    </li>
+
+                                    <br>
+                                
+                                    <li class="navigation__item">
+                                        <a class= "cursor" id="demo3" title="cnblogs" target="_blank">
+                                            <i id="cat" class='social iconfont icon-cnblogs'></i>
+                                            <span id="cat" class="label">cnblogs</span>
+                                        </a>
+                                    </li>
+
+                                    <li id="demo4" class="navigation__item">
+                                        <a href="https://www.zhihu.com/people/dmego/" title="zhihu" target="_blank">
+                                            <i class='social iconfont icon-zhihu'></i>
+                                            <span class="label">zhihu</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="mailto:dmeago@gmail.com" title="email">
+                                            <i class='social iconfont icon-email'></i>
+                                            <span class="label">email</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay cover-slate"></div>
+        </div>
+        <!-- <div class="beian iUp">
+            <a class="icp" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">XXX</a>
+            <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>
+        </div> -->
+        <div class="remark iUp">
+            <p class="power">Powered By 
+                <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a> And 
+                <a href="https://hitokoto.cn/" target="_blank"> Hitokoto </a>
+                <br />
+                <span id="sitetime"></span>
+            </p>
+        </div>
+    </header>
+    <script src="assets/js/aplayer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/home.js"></script>
+    <!--<script src="text/javascript" src="assets/js/hitokoto.js"></script> -->
+    <!-- Cursor clicking effect: firework.js -->
+    <script type="text/javascript" src="assets/js/fireworks.js"></script>
+    <canvas class="circle" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+    <script>
+		window.onload = function(){  
+			iziToast.show({
+				title: 'Hey',
+				message: 'What would you like to add?'
+			});
+			}  
+	</script>
+</body>
+</html>
