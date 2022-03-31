@@ -247,14 +247,6 @@ siteTime();
 // console.log("\n %c 俊樹のHomepage %c https://www.toshiki.top/ \n", "color: #ffffff; background: #f44336; padding:5px 0;", "background: #030303; padding:5px 0;");
 // console.log printing ends
 
-/*
-backdrop: `
-rgba(0,0,123,0.4)
-url("/images/nyan-cat.gif")
-center left
-no-repeat
-`
-*/
 
 document.getElementById("cat").onclick = function() {
     Swal.fire({
