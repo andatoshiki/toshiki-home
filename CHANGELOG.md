@@ -1,16 +1,26 @@
 # Changelog
 
-## 2022315325
-- Modified `meta` tag, SEO relates.
-```html
-...
-<!-- meta and SEO relates -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="俊樹's Homepage">
-<meta name="keywords" content="俊樹,Homepage,主页,引导页,Index,Home">
-<meta name="author" content="俊樹">
-...
-```
-- Added stylesheets 
+- f3d6112,andatoshiki,a_toshiki@outlook.com,added 4 new personal links
+- 7c32ff3,andatoshiki,a_toshiki@outlook.com,added sweetlaert popup for wechat adding
+- 884beb6,andatoshiki,a_toshiki@outlook.com,added map file for `aplayer.js`
+- ccfb1e7,andatoshiki,a_toshiki@outlook.com,removed ref codes
+- 64028fe,andatoshiki,a_toshiki@outlook.com,added commets for icp infos
+- 18224ef,andatoshiki,a_toshiki@outlook.com,changed `meting.js` file path
+- 8f97c91,andatoshiki,a_toshiki@outlook.com,pulled the pain ass `meting.js` file down to local & minimized
+- 7b72498,andatoshiki,a_toshiki@outlook.com,moved location of `sweetalert.js` down to `<body>` tags
+- ca2e0eb,andatoshiki,a_toshiki@outlook.com,added more commets between `<head> tags`
+- ac44333,andatoshiki,a_toshiki@outlook.com,added more commets
+- fb2b5f2,andatoshiki,a_toshiki@outlook.com,alert text rendering is back!
+- f3396fe,andatoshiki,a_toshiki@outlook.com,removed alert text rendering
+- 83f5ae1,andatoshiki,a_toshiki@outlook.com,modified ^Gplayer.min.js file path
+- ca515db,andatoshiki,a_toshiki@outlook.com,renamed `aplayer.js` into `aplayer.min.js`
+- 2b39038,andatoshiki,a_toshiki@outlook.com,minimized javascript file content
+- 7f7f429,andatoshiki,a_toshiki@outlook.com,added keybase.txt for keybase site proving
+- 5905a02,andatoshiki,a_toshiki@outlook.com,deleted `keybase.txt` for site proving
+- 972e4ae,andatoshiki,a_toshiki@outlook.com,updated `iziToast.js` file path
+- 6eb718d,andatoshiki,a_toshiki@outlook.com,localized `iziToast.js` into local dir
+- 8ed90ba,andatoshiki,a_toshiki@outlook.com,updated `.gitignore` contents for unnecessary dirs
+- ad9d00c,andatoshiki,a_toshiki@outlook.com,added comments & explanations to `index.html`
+- 50ca3a1,andatoshiki,a_toshiki@outlook.com,deleted `hitokoto.js`
+- 6e150e6,andatoshiki,a_toshiki@outlook.com,deleted `hitokoto.txt`
+- 8b7e935,andatoshiki,a_toshiki@outlook.com,initial commit on basic layout files
