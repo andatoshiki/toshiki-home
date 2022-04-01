@@ -1,18 +1,18 @@
 
 /* Great Britain Old English BT Font*/
 @font-face {font-family: "Engravers' Old English BT";
-    src: url("../webfonts/d571b52b60b5617399ce8eab62bf3eb3.eot"); /* IE9*/
-    src: url("../webfonts/d571b52b60b5617399ce8eab62bf3eb3.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../webfonts/d571b52b60b5617399ce8eab62bf3eb3.woff") format("woff"), /* chrome firefox */
-    url("../webfonts/d571b52b60b5617399ce8eab62bf3eb3.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("../webfonts/d571b52b60b5617399ce8eab62bf3eb3.svg#Engravers' Old English BT") format("svg"); /* iOS 4.1- */
+    src: url("https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-home/assets/webfonts/d571b52b60b5617399ce8eab62bf3eb3.eot"); /* IE9*/
+    src: url("https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-home/assets/webfonts/d571b52b60b5617399ce8eab62bf3eb3.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-home/assets/webfonts/d571b52b60b5617399ce8eab62bf3eb3.woff") format("woff"), /* chrome firefox */
+    url("https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-home/assets/webfonts/d571b52b60b5617399ce8eab62bf3eb3.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-home/assets/webfonts/d571b52b60b5617399ce8eab62bf3eb3.svg#Engravers' Old English BT") format("svg"); /* iOS 4.1- */
 }
 
 
 /* Japanese Font Type from Google Font */
 @font-face {
     font-family: "jp";
-    src: url("../webfonts/jp.ttf") format("truetype");
+    src: url("https://cdn.jsdelivr.net/gh/andatoshiki/toshiki-home/assets/webfonts/jp.ttf") format("truetype");
 }
 
 .jp{
