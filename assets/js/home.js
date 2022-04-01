@@ -246,7 +246,7 @@ siteTime();
 // console.log printing
 // console.log("\n %c 俊樹のHomepage %c https://www.toshiki.top/ \n", "color: #ffffff; background: #f44336; padding:5px 0;", "background: #030303; padding:5px 0;");
 // console.log printing ends
-
+console.log("\n %c 俊樹のHomepage %c https://www.toshiki.top/ \n", "color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;");
 
 document.getElementById("wechat").onclick = function() {
     Swal.fire({
