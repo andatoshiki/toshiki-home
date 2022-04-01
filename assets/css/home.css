@@ -776,3 +776,8 @@ p.panel-cover__description.iUp.up {
     font-size: 10px;
     color: lightskyblue;
 }
+
+/* site footer stats color */
+.sitestats {
+    color: #4e97d8;
+}
