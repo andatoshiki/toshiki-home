@@ -194,6 +194,63 @@ window.onload = function() {
 }
 // title switching ends
 
+window.addEventListener('load', (event) => {
+    iziToast.show({
+        id: null, 
+        class: '',
+        title: 'Hi there! <br />',
+        titleColor: '',
+        titleSize: '',
+        titleLineHeight: '',
+        message: 'Welcome to my homepage!',
+        messageColor: '',
+        messageSize: '',
+        messageLineHeight: '',
+        backgroundColor: '',
+        theme: 'dark', // dark
+        color: '', // blue, red, green, yellow
+        icon: 'fas fa-hand-peace',
+        iconText: '',
+        iconColor: '',
+        iconUrl: null,
+        image: 'https://www.png8.com/imgs/2022/04/01/7743d7d8a340151a.png',
+        imageWidth: 50,
+        maxWidth: null,
+        zindex: null,
+        layout: 1,
+        balloon: false,
+        close: true,
+        closeOnEscape: false,
+        closeOnClick: false,
+        displayMode: 0, // once, replace
+        position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+        target: '',
+        targetFirst: true,
+        timeout: 2000,
+        rtl: false,
+        animateInside: true,
+        drag: true,
+        pauseOnHover: true,
+        resetOnHover: false,
+        progressBar: true,
+        progressBarColor: '',
+        progressBarEasing: 'linear',
+        overlay: false,
+        overlayClose: false,
+        overlayColor: 'rgba(0, 0, 0, 0.6)',
+        transitionIn: 'fadeInUp',
+        transitionOut: 'fadeOut',
+        transitionInMobile: 'fadeInUp',
+        transitionOutMobile: 'fadeOutDown',
+        buttons: {},
+        inputs: {},
+        onOpening: function () {},
+        onOpened: function () {},
+        onClosing: function () {},
+        onClosed: function () {}
+    });
+  });
+
 // block f12, ctrl+shift+i, ctrl+shit+j, right click.
 window.oncontextmenu = function() {
     return false;
@@ -231,7 +288,7 @@ function siteTime(){
     minutes - 0-59之间的整数，做为date对象的分钟数
     seconds - 0-59之间的整数，做为date对象的秒数
     microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-    var t1 = Date.UTC(2017,11,11,16,16,16); //北京时间2016-12-1 00:00:00
+    var t1 = Date.UTC(2021,9,5,02,14,49); // beijing time 9/5/2021 02:14:49
     var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
     var diff = t2-t1;
     var diffYears = Math.floor(diff/years);
