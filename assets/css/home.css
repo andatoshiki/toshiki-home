@@ -3,7 +3,7 @@
 /* body background using dmoe.cc random anime image API */
 
 .panel-main__inner.panel-inverted {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://www.dmoe.cc/random.php") center center no-repeat #666;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://www.png8.com/imgs/2022/04/01/d20c125938e30014.jpg") center center no-repeat #666;
     background-size: cover;
 }
 
