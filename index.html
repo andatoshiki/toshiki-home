@@ -29,15 +29,34 @@
     <title>俊樹's Homepage</title>
 
     <!-- css stylesheets -->
-    <link rel="stylesheet" type="text/css" href="asstes/css/APlayer.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/">
+    <!-- aplayer css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+
+    <!-- izitoast css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/iziToast.min.css">
+
+    <!-- replacing link -->
     <!-- https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css -->
+
+    <!-- sweetalert2 css -->
     <link rel="stylesheet" type="text/css" href="assets/css/sweetalert2.min.css">
+
+    <!-- fontawesome css stylesheets, have not enough disk space to fucking download the entire fontawesome font pack -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.css">
+
+    <!-- fonts integration -->
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
+
+    <!-- main home css -->
     <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+
+    <!-- vno css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vno.css">
+
+    <!-- iconfont css -->
     <link rel="stylesheet" type="text/css" href="assets/css/iconfont.css">
+
+    <!-- katex starts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
@@ -57,6 +76,9 @@
         });
     });
     </script>
+    <!-- katex ends -->
+
+    <!-- web favicons, apple touch icon and main icon -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" href="favicon.ico">
 </head>
@@ -220,19 +242,21 @@
             <div class="panel-cover--overlay cover-slate"></div>
         </div>
 
-        <!-- icp infos -->
-        <!-- <div class="beian iUp">
-            <a class="icp" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">XXX</a>
-            <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>
-        </div> -->
-
-        <!-- footer powers and sponsors -->
+        <!-- footer -->
         <div class="remark iUp">
-            <p class="power">Powered By 
-                <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a> And 
-                <a href="https://hitokoto.cn/" target="_blank"> Hitokoto </a>
+            <p class="power">
+                <!-- icp info -->
+                <a href="https://icp.gov.moe/?keyword=20220409" target="_blank"><i class="fas fa-shield-alt fa-sm"></i> 萌ICP备20220409号</a>
                 <br />
-
+                Made with <i class="fas fa-heart"></i> by Anda Toshiki
+                <br />
+                <!-- powers & sponsors -->
+                Powered By
+                <a href="https://github.com" target="_blank"><i class="fab fa-github fa-sm"></i> GitHub </a>, 
+                <a href="https://katex.org/" target="_blank"> <i class="fas fa-calculator fa-sm"></i> $\KaTeX$</a>,
+                <a href="https://https://demoe.cc/" target="_blank"> <i class="fas fa-images fa-sm"></i> dmoe.cc</a>&
+                <a href="https://vercel.com/" target="_blank"> <i class="fas fa-server fa-sm"></i> Vercel</a>
+                <br />
                 <!-- site runtime -->
                 <span id="sitetime"></span>
             </p>
