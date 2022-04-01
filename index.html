@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 
     <!-- izitoast css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/iziToast.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
 
     <!-- replacing link -->
     <!-- https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css -->
@@ -245,20 +245,26 @@
         <!-- footer -->
         <div class="remark iUp">
             <p class="power">
+
                 <!-- icp info -->
                 <a href="https://icp.gov.moe/?keyword=20220409" target="_blank"><i class="fas fa-shield-alt fa-sm"></i> 萌ICP备20220409号</a>
                 <br />
+                
                 Made with <i class="fas fa-heart"></i> by Anda Toshiki
                 <br />
                 <!-- powers & sponsors -->
                 Powered By
                 <a href="https://github.com" target="_blank"><i class="fab fa-github fa-sm"></i> GitHub </a>, 
-                <a href="https://katex.org/" target="_blank"> <i class="fas fa-calculator fa-sm"></i> $\KaTeX$</a>,
-                <a href="https://https://demoe.cc/" target="_blank"> <i class="fas fa-images fa-sm"></i> dmoe.cc</a>&
+                <a href="https://katex.org/" target="_blank"> <i class="fas fa-calculator fa-sm"></i> $\KaTeX$</a> &
                 <a href="https://vercel.com/" target="_blank"> <i class="fas fa-server fa-sm"></i> Vercel</a>
                 <br />
+
+                <!-- site viewtime -->
+                This site has been viewed for <span class="sitestats" id="busuanzi_value_site_pv"></span> times
+                <br />
+
                 <!-- site runtime -->
-                <span id="sitetime"></span>
+                <span id="sitetime"></span> <br />
             </p>
         </div>
     </header>
@@ -288,16 +294,8 @@
 
     <!-- sweetalert2 js -->
     <script type="text/javascript" src="assets/js/sweetalert2.all.min.js"></script>
-    
-    <!--
-    <script>
-		window.onload = function(){  
-			iziToast.show({
-				title: 'Hey',
-				message: 'What would you like to add?'
-			});
-			}  
-	</script>
-    -->
+
+    <!-- busuanzi site view stats -->
+    <script type="text/javascript" src="assets/js/busuanzi.min.js"></script>
 </body>
 </html>
