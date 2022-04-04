@@ -1,47 +1,37 @@
 ==================================================================
-https://keybase.io/toshiki
+https://keybase.io/andatoshiki
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://toshiki.top
-  * I am toshiki (https://keybase.io/toshiki) on keybase.
-  * I have a public key with fingerprint B4FF BC1F D5BE 9933 13D1  CBDB 9228 A79A A4D3 FCB5
+  * I am an admin of https://www.toshiki.top
+  * I am andatoshiki (https://keybase.io/andatoshiki) on keybase.
+  * I have a public key with fingerprint C987 8490 C08D 265A 3181  8452 E676 CB80 5B0A 1F56
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "0101cca3264d449ac297a648410cab1797cf30ffbfb1b42389d346c8c9af768327d10a",
-      "fingerprint": "b4ffbc1fd5be993313d1cbdb9228a79aa4d3fcb5",
+      "eldest_kid": "01014180bd570a8dfae5f8e4e14f426a06acf3d19db3f54cb88706cc0801be36bb770a",
+      "fingerprint": "c9878490c08d265a31818452e676cb805b0a1f56",
       "host": "keybase.io",
-      "key_id": "9228a79aa4d3fcb5",
-      "kid": "0101cca3264d449ac297a648410cab1797cf30ffbfb1b42389d346c8c9af768327d10a",
-      "uid": "dd564590094d52d54735743f57ffb219",
-      "username": "toshiki"
-    },
-    "merkle_root": {
-      "ctime": 1648834166,
-      "hash_meta": "1bca424415ec276368040ccc2cbdebdaba16ee462bb4c7454abe3b1e1eb01996",
-      "seqno": 22207215
-    },
-    "revoke": {
-      "sig_ids": [
-        "9f2ac4e5f8d6a642ce04d630e60e379c324f01d08fe54e721fd08985a786cd5d0f"
-      ]
+      "key_id": "e676cb805b0a1f56",
+      "kid": "01014180bd570a8dfae5f8e4e14f426a06acf3d19db3f54cb88706cc0801be36bb770a",
+      "uid": "0aa35415d4af7023d5766c6f817e8719",
+      "username": "andatoshiki"
     },
     "service": {
-      "hostname": "toshiki.top",
+      "hostname": "www.toshiki.top",
       "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1648834178,
+  "ctime": 1649114713,
   "expire_in": 157680000,
-  "prev": "dde208d2acca37e816fb522d74c19ac53bcc3a3ba3cbd0e4dbb215670c1faa0d",
-  "seqno": 5,
+  "prev": "7b03d84225663d8677b046db19159a510cd5ef803dff27c4d141baa25e05ff45",
+  "seqno": 4,
   "tag": "signature"
 }
 
@@ -51,31 +41,28 @@ which yields the signature:
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-yMKsAnicrVNdaBxVGN1Nk6gRRfKm0YeOJKUYNvf/ziwWpLENWLS2gkWbdry/m2GT
-nXVmsjaGfTBIxAii9YeWGmtRinWrFlpaaKCttago2IrWp/RFgg3qk21oQYreWRRR
-fHRe5u985zvfOd89d9uqQk9xrritem4NGC5+dTabLMgRNjPtyVhPeeVpr2raNzOu
-TZqF1Uh7ZQ9AAJUSGDGiCQmEQgEXjPgEAiUk5AFXFgNrpZVQEoT9QGPClK8CYTnz
-MeIaAuENejaqVUxST6Ja5mglcSUKWk2lCQKMIdZQSS0DhHzBAyGIxlZJ6grH4jSv
-cOKkSE0pit039xK25f0H/n/WPdmm05oyQgMAAqIp0pRwTDnBlnJHgWCQA1OT1MSE
-cegsTseiauQ1B70Jk1THTZjEcZZ7q7IoR0CnxMcEMubmE+lYOGEy4QqhVIIgQiA1
-CnGGmQ8IUEoh542RWkgBmTGEISmJ4oQSIQ2W0EAjAQwC5mSk5ula7JURQoAjSJ2E
-xDTiqsm7p1HF2ZZ65e1eYJFQxFDra+Z8QcoAohkGhgGDeaAwIhZADXxrKDGOybrn
-wKeC+0xpqoH1djTzbkkjUm3yPKd/zl/K4rpTVE/iLFbxuPsxlmX1tJz7kk3Vc+Qz
-RoZ/coQyqmm3JK6iYZI0imvOJ4f8l2XcH/TMrnqUmDDKEdSlBdyV9zGNdlQGAV+7
-8Vz83PiQWUkR0pwo6PaAYqkUFlgK7EwFhmjpAqSMA7eOQgD9t4fUyRQVR+l8q4ls
-MjFe8+yZ0c5CsafQ3dWRH55Czy13/HWkXpi+uTDzw5ahx08d3v7Lulbfxr3pw1dX
-P/r6Etyzeff1NQdfY6sH5nuX93fMfvoEC8PrB/ovL5ZevPL54vTx3ujGvg3L6wuJ
-2Nfc8fLej3+snAHlb7/r63p+94ljMyc/Ob1w6afve4bD+aMLrSPnX5p9U2zZds8H
-p7au3TQ3eujebFPps4Gl564eubburtG7V+3sH15s3XTrLvrriQuna++gYytd7NUD
-3ZUB9M3PQ9d+e6VIW+/PKD4wVFx4CnXq+ZEnO+5s3Fj2H9zwbp9gh++7/F4xfuvL
-5qWR/uX7t0499PbJZ3/3h2XpwsWVg73Nr7uvtFY+fON890d71neuZbc/sv+Bx2aX
-7OaNO725LwoX/wDtrntr
-=cgCZ
+yMIpAnicrZJtSBRBHMZPzUoxsKKiOiQ2MSNfdu5mZnfvS1BGmR+sKOFCumZ2Z3VR
+b6/dPbXMUiSKojKKVDSQiIrSsHd6MdKiD11SFgliJBX0YlogESQUzZp962PzZWb+
+83ueeebPPJyV4EmOq7xakXh3e/W5uFjPqaiHFuwJ1gjU1HYKgRqhjE1OrFxjthMq
+MzQhIIhABBDIItWQJBJZ0wlDuswgA1CHPkxETFTdrwFFo34dQZXKsiRiVRVlEVDm
+x5RKXCdkCboRLmFWxDLCDrdVFVmSoSJyTvNhRPxABjJEPoYlzD1EREUCdIS5sNS0
+XQUPR4nNcgyT1/gmNBnvH/x/zh39Y0eIH0GANEh0SfT5uSvGKtZlIDFZAooL2swK
+kwrGaRLWiGPapUaZIdRmCfyg0lCZ21v3MVNQVVVVzhTE5wh3iFimY6pmOT8sdZyI
+HXDFzs7IJM1oaMonRI2wxrvJFZXMsg0zLAQAJ1XHcI0BhgoAUAL+LIFVRwyLhQyX
+4IllkQ/3HlbJLSUq+jUZ+nwIY77AEi9ArFGgAKQQBERVQ0yXOaTrPkmFGm8oJcSH
+mIh0HSLBfdmOsCkEII9JSrilbZSEiRO1mFDbe794micu2TM9Md79ZZ7kpNS/f2/G
+5Zme18HYY8O7ri9lS/NIZr51p+JEU1Nxe96SxrsHrc2jNHv5eORsf2tetPgYvd0d
+GGofqwvUK96VuxKfDw11DHcUvol9art3a8YBb31sc6bd25WagVvm73pDejyn9xY1
+Dhb0xPonWosWPCk8cn3xz0tHHRZsH81LKu2K1q3Im3Pr8PCH7uB7VnXmWNo3pS3y
+5cXX0JWPnzfdSE8faZ7XMNpyM2n/eEpx5qJ9E8ue9l5oSf3w2nvlHUwwB54d/1HU
+2FvROHdrvDT7Ihr77u3MzQW1qxteLU3vSuv8deFk6qqRjKQ16zdkLtyR/yB74eC1
+spdvH+0+nzMQnTgkdSVsWzs6vGhj35rfxC9Dtw==
+=7fnp
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/toshiki
+View my publicly-auditable identity here: https://keybase.io/andatoshiki
 
 ==================================================================
