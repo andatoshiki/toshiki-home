@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "toshiki.top",
+  "Id": "0a723b5b-e97c-43fa-a0ba-baf59717cbba"
+}
